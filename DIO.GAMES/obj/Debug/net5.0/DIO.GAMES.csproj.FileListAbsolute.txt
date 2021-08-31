@@ -1,0 +1,16 @@
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\bin\Debug\net5.0\DIO.GAMES.exe
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\bin\Debug\net5.0\DIO.GAMES.deps.json
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\bin\Debug\net5.0\DIO.GAMES.runtimeconfig.json
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\bin\Debug\net5.0\DIO.GAMES.runtimeconfig.dev.json
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\bin\Debug\net5.0\DIO.GAMES.dll
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\bin\Debug\net5.0\ref\DIO.GAMES.dll
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\bin\Debug\net5.0\DIO.GAMES.pdb
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\DIO.GAMES.csproj.AssemblyReference.cache
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\DIO.GAMES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\DIO.GAMES.AssemblyInfoInputs.cache
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\DIO.GAMES.AssemblyInfo.cs
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\DIO.GAMES.csproj.CoreCompileInputs.cache
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\DIO.GAMES.dll
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\ref\DIO.GAMES.dll
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\DIO.GAMES.pdb
+C:\Users\EDI_JANE\Documents\projetos-c#\dio-projeto-c#\DIO.GAMES\obj\Debug\net5.0\DIO.GAMES.genruntimeconfig.cache
