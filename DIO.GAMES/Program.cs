@@ -20,13 +20,13 @@ namespace DIO.GAMES
                         ListarGames();
                         break;
                     case "3":
-                        //ExcluiGame();
+                        ExcluirGame();
                         break;
                     case "4":
-                        //AtualizaGame();
+                        AtualizarGame();
                         break;
                     case "5":
-                        //VizualisaGame();
+                        VisualizarGame();
                         break;
                     case "C":
                         Console.Clear();
@@ -47,7 +47,7 @@ namespace DIO.GAMES
             Console.WriteLine("2- Listar Games");
             Console.WriteLine("3- Excluir Game");
             Console.WriteLine("4- Atualizar Game");
-            Console.WriteLine("5- Vizualisar Game");
+            Console.WriteLine("5- Visualizar Game");
             Console.WriteLine("6- Limpar tela");
             Console.WriteLine("X- Sair");
             Console.WriteLine();
@@ -73,15 +73,15 @@ namespace DIO.GAMES
 
             Console.Write("Digite o ano de lançamento do game: ");
             int entradaAno = int.Parse(Console.ReadLine());
-            
+
             Console.Write("Digite o modo do game (Online / offLine)");
             string entradaModo = Console.ReadLine();
-           
-            Game novoGame = new Game(id: repositorio.ProximoId(), 
-                                    genero: (Genero)entradaGenero, 
-                                    titulo: entradaTitulo, 
-                                    descricao: entradaDescricao, 
-                                    anoLancamento: entradaAno, 
+
+            Game novoGame = new Game(id: repositorio.ProximoId(),
+                                    genero: (Genero)entradaGenero,
+                                    titulo: entradaTitulo,
+                                    descricao: entradaDescricao,
+                                    anoLancamento: entradaAno,
                                     modo: entradaModo
                                     );
             repositorio.Insere(novoGame);
@@ -100,6 +100,57 @@ namespace DIO.GAMES
             {
                 Console.WriteLine("#ID {0}: - {1}", game.retornaId(), game.retornaTitulo());
             }
+        }
+        private static void ExcluirGame()
+        {
+            Console.Write(" Digite o ID do game: ");
+            int indiceGame = int.Parse(Console.ReadLine());
+
+            repositorio.Exclui(indiceGame);
+        }
+        private static void AtualizarGame()
+        {
+            Console.Write(" Digite o ID do game: ");
+            int indiceGame = int.Parse(Console.ReadLine());
+
+            foreach (int i in Enum.GetValues(typeof(Genero)))
+            {
+                Console.WriteLine(" {0} - {1} ", i, Enum.GetName(typeof(Genero), i));
+            }
+            Console.Write(" Digite o gênero entre as opções acima: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.Write(" Digite o Título da Série: ");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.Write(" Digite a Descrição da Série: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Console.Write(" Digite o Ano de Início da Série: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o modo do game (OnLine / OffLine): ");
+            string entradaModo = Console.ReadLine();
+
+
+            Game atualizaGame = new Game(id: indiceGame,
+                                     genero: (Genero)entradaGenero,
+                                     titulo: entradaTitulo,
+                                     descricao: entradaDescricao,
+                                     anoLancamento: entradaAno,
+                                     modo: entradaModo
+                                     );
+
+            repositorio.Atualiza(indiceGame, atualizaGame);
+        }
+        private static void VisualizarGame()
+        {
+            Console.Write(" Digite o ID do game: ");
+            int indiceGame = int.Parse(Console.ReadLine());
+
+            var game = repositorio.RetornaPorId(indiceGame);
+
+            Console.WriteLine(game);
         }
     }
 

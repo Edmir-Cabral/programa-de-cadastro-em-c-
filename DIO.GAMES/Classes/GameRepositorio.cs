@@ -30,7 +30,7 @@ namespace DIO.GAMES.Classes
             return listaGames.Count;
         }
 
-        Game IRepositorio<Game>.RetornaPorId(int id)
+        public Game RetornaPorId(int id)
         {
             return listaGames[id];
         }

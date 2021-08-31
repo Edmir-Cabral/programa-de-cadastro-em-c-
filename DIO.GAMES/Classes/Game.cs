@@ -29,7 +29,8 @@ namespace DIO.GAMES
             retorno += "Título = " + this.Titulo + Environment.NewLine;
             retorno += "Descrição = " + this.Titulo + Environment.NewLine;
             retorno += "Ano de lançamento = " + this.Titulo + Environment.NewLine;
-            retorno += "Modo = " + this.Titulo + Environment.NewLine;
+            retorno += "Modo = " + this.Modo + Environment.NewLine;
+            retorno += "Excluído = " + this.Excluido;
             return retorno;
         }
         public string retornaTitulo()
@@ -40,8 +41,13 @@ namespace DIO.GAMES
         {
             return this.Id;
         }
-        public void excluir(){
+        public void excluir()
+        {
             this.Excluido = true;
+        }
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
         }
     }
 }

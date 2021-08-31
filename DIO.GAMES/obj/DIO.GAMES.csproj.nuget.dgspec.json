@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EDI_JANE\\Documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\DIO.GAMES.csproj": {}
+    "C:\\Users\\EDI_JANE\\documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\DIO.GAMES.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EDI_JANE\\Documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\DIO.GAMES.csproj": {
+    "C:\\Users\\EDI_JANE\\documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\DIO.GAMES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EDI_JANE\\Documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\DIO.GAMES.csproj",
+        "projectUniqueName": "C:\\Users\\EDI_JANE\\documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\DIO.GAMES.csproj",
         "projectName": "DIO.GAMES",
-        "projectPath": "C:\\Users\\EDI_JANE\\Documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\DIO.GAMES.csproj",
+        "projectPath": "C:\\Users\\EDI_JANE\\documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\DIO.GAMES.csproj",
         "packagesPath": "C:\\Users\\EDI_JANE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EDI_JANE\\Documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\obj\\",
+        "outputPath": "C:\\Users\\EDI_JANE\\documents\\projetos-c#\\dio-projeto-c#\\DIO.GAMES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
